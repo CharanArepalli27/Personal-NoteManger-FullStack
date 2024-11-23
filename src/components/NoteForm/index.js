@@ -118,7 +118,8 @@ const NoteForm = () => {
     }
   };
   //!To edit the note
-  const onEditNote = async () => {
+  const onEditNote = async (event) => {
+    event.preventDefault()
     const noteDetails = {
       title: addTitle,
       description: addDescription,
