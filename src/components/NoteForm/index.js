@@ -127,7 +127,7 @@ const NoteForm = () => {
     };
     try {
       const response = await fetch(
-        `http://localhost:3000/notes/${editingNoteId}`,
+        `https://persnolnotesmanager-backend.onrender.com/notes/${editingNoteId}`,
         {
           method: "PUT",
           headers: {
