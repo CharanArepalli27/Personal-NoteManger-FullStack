@@ -1,0 +1,18 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.button {
+  border: 0px;
+  background: none;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

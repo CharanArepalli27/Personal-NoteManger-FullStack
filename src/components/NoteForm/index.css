@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.heading {
+  font-family: Lobster;
+  text-align: center;
+  color: #183b56;
+  font-size: 50px;
+}
+.form-heading {
+  font-family: Roboto;
+  text-align: center;
+  color: #183b56;
+  font-size: 17px;
+}
+.SearchByCategory-Title-Form {
+  height: 180px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.input-element {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.label {
+  font-family: roboto;
+  color: black;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: black;
+}
+.input {
+  height: 30px;
+  width: 250px;
+  padding-left: 5px;
+}
+.submit-button {
+  background-color: #4c63b6;
+  height: 30px;
+  align-self: center;
+  width: 100px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.AddNewNote-Form {
+  height: 350px;
+  width: 320px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.Forms-container {
+  display: flex;
+  justify-content: space-around;
+}
+.text-area {
+  height: 50px;
+  width: 250px;
+  padding-left: 5px;
+}
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Error-message {
+  font-family: Roboto;
+  color: #183b56;
+  text-align: center;
+}
