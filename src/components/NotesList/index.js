@@ -19,7 +19,7 @@ const NotesList = (props) => {
       <p>Description : {description}</p>
       <p>Category : {category}</p>
       <p>Created At {created_at}</p>
-      {updated_at !== null && <p>Updated At : updated_at</p>}
+      {updated_at !== null && <p>Updated At : {updated_at}</p>}
       <div className="buttons">
         <button className="button">
           <MdDelete size={25} onClick={onClickDelete} />
